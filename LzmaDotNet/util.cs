@@ -14,7 +14,7 @@ namespace LzmaDotNet
     int lc;             // number of literal context bits; 0 <= lc <= 8; default = 3
     int lp;             // number of literal pos bits; 0 <= lp <= 4; default = 0
     int pb;             // number of pos bits; 0 <= pb <= 4; default = 2
-    int algo;           // 0 - fast, 1 - normal, 2 - ???; default = 1
+    int algo;           // 0 - fast, 1 - normal; default = 1
     int fb;             // number of fast bytes; 5 <= fb <= 273; default = 32
     int btMode;         // 0 - HashChain mode, 1 - BinaryTree mode; default = 1
     int numHashBytes;   // 2, 3 or 4; default = 4
@@ -26,7 +26,7 @@ namespace LzmaDotNet
     private const int pb = 2;
     private const int lc = 3;
     private const int lp = 0;
-    private const int algo = 1; // Note: GMod uses 2 for this, but we gotta use 1.
+    private const int algo = 1;
     private const int fb = 32;
     private const string mf = "bt4";
 
