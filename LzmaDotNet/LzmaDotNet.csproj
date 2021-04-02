@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <AssemblyName>LzmaDotNet</AssemblyName>
+        <RootNamespace>LzmaDotNet</RootNamespace>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)'=='Release'">
+        <IsPackable>true</IsPackable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageOutputPath>$(SolutionDir)nupkg</PackageOutputPath>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Title>LzmaDotNet</Title>
+        <Authors>dnGLua and Contributors</Authors>
+        <Owners>dnGLua</Owners>
+        <Company>dnGLua</Company>
+        <Copyright>Copyright © dnGLua and Contributors</Copyright>
+        <PackageId>LzmaDotNet</PackageId>
+        <Description>7z/LZMA SDK: Garry's Mod edition.</Description>
+        <RepositoryUrl>https://github.com/dnGLua/LzmaDotNet</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/dnGLua/LzmaDotNet</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>csharp sevenzip 7z lzma gmod garrysmod dnglua</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <Version>19.0.0</Version>
+        <AssemblyVersion>19.0.0</AssemblyVersion>
+        <FileVersion>19.0.0</FileVersion>
+        <PackageVersion>19.0.0</PackageVersion>
+        <PackageReleaseNotes></PackageReleaseNotes>
+    </PropertyGroup>
+
+</Project>
