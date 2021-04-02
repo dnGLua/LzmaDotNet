@@ -1,4 +1,4 @@
-name: .NET
+name: Build
 env:
   DOTNET_CLI_TELEMETRY_OPTOUT: true
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
@@ -10,7 +10,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  Build:
     name: Build
     runs-on: windows-latest
     steps:
