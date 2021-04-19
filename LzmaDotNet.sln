@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31213.239
+MinimumVisualStudioVersion = 16.0.31213.239
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LzmaDotNet", "LzmaDotNet\LzmaDotNet.csproj", "{C68747A1-45AB-4117-9EE9-024463AC3024}"
 EndProject
 Global
